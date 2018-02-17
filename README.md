@@ -14,7 +14,7 @@ The LazyLoader automatically waits for a scroll event at to load all images that
 
 1. Include jQuery 3+ and the LazyLoader library to your HTML.
 ```
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="./src/lazy-loader.js"></script>
 ```
 
