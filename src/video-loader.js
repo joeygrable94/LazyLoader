@@ -54,6 +54,8 @@
 		// Append our elements to the page
 		modal.appendChild( content );
 		document.appendChild( modal );
+
+		console.log($overlay);
 	}
 
 	$document.on( 'click', '.iframe_play', play_video );
