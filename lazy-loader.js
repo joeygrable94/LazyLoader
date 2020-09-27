@@ -160,7 +160,7 @@ A simple lazy loader javascript library to enhance the webpage loading performan
 
 	// create "$LL" alias in the global object
 	// used as shorthand for the LazyLoader object
-	global.TextLines = global.$LL = LazyLoader;
+	global.LazyLoader = global.$LL = LazyLoader;
 
 // run IIFE, pass it the window object and the jQuery object
 }(window, jQuery, undefined));
